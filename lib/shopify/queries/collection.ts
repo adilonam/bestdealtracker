@@ -32,8 +32,7 @@ export const getCollectionsQuery = /* GraphQL */ `
         }
       }
     }
-  }
-  ${collectionFragment}
+  }${collectionFragment}
 `;
 
 export const getCollectionProductsQuery = /* GraphQL */ `
