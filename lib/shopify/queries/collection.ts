@@ -10,8 +10,7 @@ const collectionFragment = /* GraphQL */ `
       ...seo
     }
     updatedAt
-  }
-  ${seoFragment}
+  }${seoFragment}
 `;
 
 export const getCollectionQuery = /* GraphQL */ `
@@ -19,8 +18,7 @@ export const getCollectionQuery = /* GraphQL */ `
     collection(handle: $handle) {
       ...collection
     }
-  }
-  ${collectionFragment}
+  }${collectionFragment}
 `;
 
 export const getCollectionsQuery = /* GraphQL */ `
